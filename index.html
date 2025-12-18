@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hit & Blow ゲーム</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google tag (gtag.js) -->
+    <script src="config.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-S6QX2XHT2D"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', gtagId);
+    </script>
+</head>
+<body>
+    <div id="game-container">
+        <h1>Hit & Blow</h1>
+        <p>隠された4桁の数字を当ててください。</p>
+        <div id="game-board">
+            <div id="input-area">
+                <input type="text" id="guess-input" maxlength="4" placeholder="4桁の数字">
+                <button id="guess-button">予想する</button>
+            </div>
+            <div id="history-area">
+                <h2>履歴</h2>
+                <ul id="history-list"></ul>
+            </div>
+        </div>
+        <div id="result-area"></div>
+        <button id="reset-button" class="hidden">新しいゲームを始める</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
