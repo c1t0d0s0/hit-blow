@@ -60,46 +60,6 @@
 
 ---
 
-## 🚀 使い方 / 実行方法
-
-### 必要な環境
-Google Chrome、Safari、Firefox、Microsoft Edge などのモダンWebブラウザ。
-
-### ローカルでの起動手順
-
-1. **リポジトリをクローン**:
-   ```bash
-   git clone https://github.com/your-username/hit-blow.git
-   cd hit-blow
-   ```
-
-2. **(任意) Google Tag Manager の設定**:
-   プロジェクトルートに `config.js` を作成し、GTMコンテナIDを設定します：
-   ```javascript
-   const GTM_ID = 'GTM-XXXXXXX';
-   ```
-
-3. **ゲームを起動**:
-   - `index.html` を直接ブラウザで開く：
-     ```bash
-     # macOS
-     open index.html
-     # Linux
-     xdg-open index.html
-     # Windows
-     start index.html
-     ```
-   - またはローカルHTTPサーバーで配信：
-     ```bash
-     # Python 3
-     python3 -m http.server 8000
-
-     # Node.js (npx serve)
-     npx serve .
-     ```
-
----
-
 ## 📁 ディレクトリ構成
 
 ```text

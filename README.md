@@ -61,46 +61,6 @@ If the secret number is **`4821`**:
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-All you need is a modern web browser (Chrome, Firefox, Safari, Edge).
-
-### Installation & Running Locally
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/hit-blow.git
-   cd hit-blow
-   ```
-
-2. **(Optional) Configure Google Tag Manager**:
-   Create a `config.js` file in the root directory:
-   ```javascript
-   const GTM_ID = 'GTM-XXXXXXX';
-   ```
-
-3. **Launch the game**:
-   - Open `index.html` directly in your browser:
-     ```bash
-     # macOS
-     open index.html
-     # Linux
-     xdg-open index.html
-     # Windows
-     start index.html
-     ```
-   - Or serve with any local HTTP server:
-     ```bash
-     # Python 3
-     python3 -m http.server 8000
-
-     # Node.js (npx serve)
-     npx serve .
-     ```
-
----
-
 ## 📁 Project Structure
 
 ```text
